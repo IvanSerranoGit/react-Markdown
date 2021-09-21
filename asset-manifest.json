@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/IvanSerranoGit/react-Markdown/static/css/main.f94b36bb.chunk.css",
-    "main.js": "/IvanSerranoGit/react-Markdown/static/js/main.f77e02b8.chunk.js",
-    "main.js.map": "/IvanSerranoGit/react-Markdown/static/js/main.f77e02b8.chunk.js.map",
-    "runtime-main.js": "/IvanSerranoGit/react-Markdown/static/js/runtime-main.224dd6ed.js",
-    "runtime-main.js.map": "/IvanSerranoGit/react-Markdown/static/js/runtime-main.224dd6ed.js.map",
-    "static/js/2.107baeef.chunk.js": "/IvanSerranoGit/react-Markdown/static/js/2.107baeef.chunk.js",
-    "static/js/2.107baeef.chunk.js.map": "/IvanSerranoGit/react-Markdown/static/js/2.107baeef.chunk.js.map",
-    "index.html": "/IvanSerranoGit/react-Markdown/index.html",
-    "static/css/main.f94b36bb.chunk.css.map": "/IvanSerranoGit/react-Markdown/static/css/main.f94b36bb.chunk.css.map",
-    "static/js/2.107baeef.chunk.js.LICENSE.txt": "/IvanSerranoGit/react-Markdown/static/js/2.107baeef.chunk.js.LICENSE.txt"
+    "main.css": "/react-Markdown/static/css/main.f94b36bb.chunk.css",
+    "main.js": "/react-Markdown/static/js/main.f77e02b8.chunk.js",
+    "main.js.map": "/react-Markdown/static/js/main.f77e02b8.chunk.js.map",
+    "runtime-main.js": "/react-Markdown/static/js/runtime-main.366a215c.js",
+    "runtime-main.js.map": "/react-Markdown/static/js/runtime-main.366a215c.js.map",
+    "static/js/2.107baeef.chunk.js": "/react-Markdown/static/js/2.107baeef.chunk.js",
+    "static/js/2.107baeef.chunk.js.map": "/react-Markdown/static/js/2.107baeef.chunk.js.map",
+    "index.html": "/react-Markdown/index.html",
+    "static/css/main.f94b36bb.chunk.css.map": "/react-Markdown/static/css/main.f94b36bb.chunk.css.map",
+    "static/js/2.107baeef.chunk.js.LICENSE.txt": "/react-Markdown/static/js/2.107baeef.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.224dd6ed.js",
+    "static/js/runtime-main.366a215c.js",
     "static/js/2.107baeef.chunk.js",
     "static/css/main.f94b36bb.chunk.css",
     "static/js/main.f77e02b8.chunk.js"
