@@ -1,38 +1,141 @@
-.App {
-  text-align: center;
+
+.container{
+  display: flex;
+  height: 100vh;
+  background-color: #3b4055;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.panel{
+  background-color: #2b2f42;
+  width: 20%;
+  padding: 10px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.editor{
+  background-color: #3b4055;
+  padding: 10px;
+  width: 40%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.editor input,
+.editor textarea{
+  padding: 10px;
+  width: 100%;
+}
+
+
+.preview{
+  background-color: #3b4055;
   color: white;
+  padding: 10px;
+  width: 40%;
 }
 
-.App-link {
-  color: #61dafb;
+.note{
+  color: white;
+  padding: 10px;
+  display: flex; 
+  justify-content: space-between;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.menu{
+  padding: 10px;
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.btn{
+  background: #2b5b88;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn:hover{
+  background: #3d87cc;
+}
+
+
+.pinButton{
+  background: #2b5b88;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.pinButton:hover{
+  background-color: #3d87cc;
+}
+
+.activeNote{
+  background-color: #2084e2;
+}
+
+.editor-textarea{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content{
+  color: white;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+
+  outline: none;
+  border: none;
+
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+  font-size: 18px;
+  background-color: transparent;
+}
+
+.title{
+  color: white;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+
+  border: none;
+  border-bottom: solid 2px #ccc;
+  margin-bottom: 20px;
+
+  font-size: 32px;
+  font-weight: bolder;
+  outline: none;
+
+  background-color: transparent;
+}
+
+.search{
+  color: white;
+  padding: 5px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  width: 60%;
+  font-size: 16px;
+  background: #394168;
+
+}
+.search:focus{
+  background-color:transparent;
+  border: solid 1px #3f53b6;
+}
+
+.statusCodeContainer{
+  color: white;
+  height: 25px;
 }
